@@ -1,0 +1,33 @@
+.portfolio {
+  text-align: center;
+  background: #FF4D29;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .portfolio img {
+    height: 8em;
+    width: 8em;
+    margin-top: 10px; }
+  .portfolio .ganpati {
+    color: white;
+    font-size: 22px;
+    font-weight: 500; }
+  .portfolio .personal-info {
+    text-align: center; }
+    .portfolio .personal-info .photo {
+      height: 14em;
+      width: 14em;
+      border-radius: 50%;
+      margin-top: 25px; }
+    .portfolio .personal-info h5 {
+      color: white;
+      margin-top: 10px;
+      font-size: 22px; }
+    .portfolio .personal-info p {
+      color: white;
+      margin: 0px; }
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 667px) {
+  .portfolio .modal {
+    margin-top: 170px; } }
+
+/*# sourceMappingURL=:style.css.map */

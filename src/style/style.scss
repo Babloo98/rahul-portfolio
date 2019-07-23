@@ -1,0 +1,46 @@
+.portfolio{
+    text-align: center;
+    // background: url("http://getwallpapers.com/wallpaper/full/3/0/d/1128310-most-popular-hd-wedding-backgrounds-1920x1080-1080p.jpg");
+    // height: 100vh;
+    background: #FF4D29;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img{
+      height: 8em;
+      width: 8em;
+      margin-top: 10px;
+    }
+    .ganpati{
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .personal-info{
+        text-align: center;
+        .photo{
+            height: 14em;
+            width: 14em;
+            border-radius: 50%;
+            margin-top: 25px;
+        }
+        h5{
+            color: white;
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        p{
+            color: white;
+            margin: 0px;
+        }
+    }
+  }
+@media only screen 
+and (min-device-width: 360px)
+and (max-device-width: 667px){
+    .portfolio{
+        .modal{
+            margin-top:170px;
+        }
+    }
+}
+  
